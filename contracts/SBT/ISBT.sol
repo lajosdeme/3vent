@@ -25,9 +25,9 @@ interface ISBT is IERC165 {
     function tokenURI(uint256 tokenId) external view returns (string memory);
     
     /**
-     * @dev Emitted when `tokenId` token is transferred from `from` to `to`.
+     * @dev Emitted when `tokenId` token is minted to `to`.
      */
-    event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
+    event Mint(address indexed from, address indexed to, uint256 indexed tokenId);
 
     /**
      * @dev Returns the number of tokens in ``owner``'s account.

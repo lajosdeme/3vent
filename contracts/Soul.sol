@@ -29,6 +29,6 @@ contract Soul is Identity {
     */
     function mintSBT(address to) external onlyOwner {
         uint256 _tokenId = sbt.totalSupply();
-        sbt.safeMint(to, _tokenId);
+        sbt.mint(to, _tokenId);
     }
 }

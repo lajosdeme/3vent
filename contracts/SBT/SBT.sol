@@ -127,6 +127,6 @@ contract SBT is Context, ERC165, ISBT, Ownable {
         _owners[tokenId] = to;
         totalSupply++;
 
-        emit Transfer(address(0), to, tokenId);
+        emit Mint(address(0), to, tokenId);
     }
 }
