@@ -1,0 +1,19 @@
+node_modules
+.env
+
+### macOS template
+# General
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+### VisualStudioCode template
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#hardhat
+artifacts
+cache
