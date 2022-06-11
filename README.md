@@ -12,7 +12,7 @@ The `Identity.sol` contract is an `ERC725` contract that is able to hold SBTs, a
 We are using the `setData` function of `ERC725` to store some arbitrary bytes that represent the profile information of the identity. This can be an IPFS hash that refers to a JSON file for example. This profile data is stored under the key `PROFILE_IDENTIFIER` which is set to `keccak256("Profile")`.
 
 ## Soul
-The `Soul.sol` contract is an `Identity` that owns an SBT an has minting capability. Upon the initialization of the contract an SBT contract is deployed and th e `Soul` is set as it's owner.
+The `Soul.sol` contract is an `Identity` that owns an SBT an has minting capability. Upon the initialization of the contract an SBT contract is deployed and the `Soul` is set as it's owner.
 
 ## SBT
 
